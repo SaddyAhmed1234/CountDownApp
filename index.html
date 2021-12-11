@@ -5,24 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess number</title>
+    <title>CountDown App</title>
   </head>
   <body>
-    <h1 class="heading">Guess a Number between 0 to 10</h1>
-    <br />
-
-    <div class="container">
-      <input
-        class="input"
-        name="Enter the Number"
-        placeholder="Enter the Number"
-      />
-      <br />
-      <button class="submit" type="submit">Check</button>
-      <br />
-      <h2 class="result">Check Result</h2>
+    <div class="timer-container">
+      <h1>Happy New Year</h1>
     </div>
 
-    <script src="index.js"></script>
+    <div class="time-container">
+      <ul class="list-container">
+        <li>
+          <p class="day">0</p>
+          <span>days</span>
+        </li>
+        <li>
+          <p class="hour">0</p>
+          <span>hours</span>
+        </li>
+        <li>
+          <p class="minute">0</p>
+          <span>minutes</span>
+        </li>
+        <li>
+          <p class="second">0</p>
+          <span>seconds</span>
+        </li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
